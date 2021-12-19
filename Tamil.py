@@ -62,25 +62,12 @@ async def chat(_, message):
         if not match:
             return
     await type_and_send(message)
-
-
-
-async def main():
-    global arq
-    session = ClientSession()
-    arq = ARQ(ARQ_API_BASE_URL, ARQ_API_KEY, session)
-
     await Tamil.start()
     print(
         """
 Possessing.....................
 """
-    )
-
-
-
+     )
 idle()
-
-
 loop = get_event_loop()
 loop.run_until_complete(main())
