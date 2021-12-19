@@ -18,7 +18,6 @@ Tamil = Client(
     api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e",
 )
 
-bot_id = int(bot_token.split(":")[0])
 arq = None
 
 
