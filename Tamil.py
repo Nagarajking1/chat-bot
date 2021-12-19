@@ -63,10 +63,7 @@ async def chat(_, message):
             return
     await type_and_send(message)
     await Tamil.start()
-async def main():
-    global arq
-    session = ClientSession()
-    arq = ARQ(ARQ_API_BASE_URL, ARQ_API_KEY, session)
+
 
     print(
         """
@@ -75,4 +72,4 @@ Possessing.....................
      )
 idle()
 loop = get_event_loop()
-loop.run_until_complete(main())
+
