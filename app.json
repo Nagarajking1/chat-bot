@@ -12,16 +12,18 @@
     "arq"
   ],
   "stack": "heroku-20",
-  "env": {
-    "bot_token": {
-           "description": "Your Bot's Api Token ,Get it from @BotFather",
-           "required": true
-    },
-    "LANGUAGE": {
-           "description": " nothing to say"
-           "value": "en",
-           "required": true
-    }
+
+   "env": {
+
+      "BOT_TOKEN": {
+
+         "description": "Your bot token. Get one from @BotFather duh",
+
+         "required": true,
+
+         "value": ""
+
+      }
   },
   "buildpacks": [
    {
