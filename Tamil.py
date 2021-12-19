@@ -14,8 +14,7 @@ else:
 
 Tamil = Client(
     ":memory:",
-    bot_token=bot_token,
-    api_id=6,
+    api_id="8962397",
     api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e",
 )
 
@@ -79,11 +78,6 @@ Possessing.....................
 """
     )
 
-print("""Possessing.....................
-""")
-print("""
-Chat bot started.......................
-""")
 
 
 idle()
