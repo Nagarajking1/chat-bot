@@ -7,11 +7,10 @@ from pyrogram import Client, filters, idle
 from Python_ARQ import ARQ
 
 is_config = os.path.exists("config.py")
-
 if is_config:
     from config import *
 else:
-    from sample_config import *
+    from config import *
 
 Tamil = Client(
     ":memory:",
@@ -27,13 +26,13 @@ arq = None
 async def TamilQuery(query: str, user_id: int):
     query = (
         query
-        if LANGUAGE == "en"
-        else (await arq.translate(query, "en")).result.translatedText
+        if LANGUAGE == "ta"
+        else (await arq.translate(query, "ta")).result.translatedText
     )
     resp = (await arq.Tamil(query, user_id)).result
     return (
         resp
-        if LANGUAGE == "en"
+        if LANGUAGE == "ta"
         else (
             await arq.translate(resp, LANGUAGE)
         ).result.translatedText
