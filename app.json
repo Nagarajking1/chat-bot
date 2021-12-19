@@ -1,9 +1,10 @@
 {
-  "name": "Luna The Chat Bot",
-  "description": "Just another Telegram AI chat bot written in Python using Pyrogram.",
-  "repository": "https://github.com/TheHamkerCat/LunaChatBot",
+  "name": "a Tamil Chat Bot",
+  "description": "A tamil chat bot by @ThETeLeGrAmPro if any error @thanimaisupport.",
+  "repository": "error",
   "keywords" : [
     "python",
+   "TheTelegrampro
     "ai-bot",
     "telegram-ai-bot",
     "telegram-bot",
@@ -16,18 +17,9 @@
            "description": "Your Bot's Api Token ,Get it from @BotFather",
            "required": true
     },
-    "ARQ_API_KEY": {
-           "description": "Get this from @ARQRobot",
-           "required": true
-    },
     "LANGUAGE": {
-           "description": "Language of Chat Bot ,list --> https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages",
+           "description": " nothing to say"
            "value": "en",
-           "required": true
-    },
-    "ARQ_API_BASE_URL": {
-           "description": "ARQ URL ,Don't Change It",
-           "value": "https://thearq.tech",
            "required": true
     }
   },
