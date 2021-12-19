@@ -84,7 +84,9 @@ print("""Possessing.....................
 print("""
 Chat bot started.......................
 """)
-    await idle()
+
+
+idle()
 
 
 loop = get_event_loop()
